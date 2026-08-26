@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductInventory.Api", "backend/ProductInventory.Api/ProductInventory.Api.csproj", "{8CF8E4F8-13ED-43F1-A473-A164C32D6DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductInventory.Api.Tests", "backend/ProductInventory.Api.Tests/ProductInventory.Api.Tests.csproj", "{84A8838A-3934-4BA6-90A7-7BB7F04CA39F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CF8E4F8-13ED-43F1-A473-A164C32D6DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF8E4F8-13ED-43F1-A473-A164C32D6DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF8E4F8-13ED-43F1-A473-A164C32D6DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF8E4F8-13ED-43F1-A473-A164C32D6DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A8838A-3934-4BA6-90A7-7BB7F04CA39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A8838A-3934-4BA6-90A7-7BB7F04CA39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A8838A-3934-4BA6-90A7-7BB7F04CA39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A8838A-3934-4BA6-90A7-7BB7F04CA39F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
