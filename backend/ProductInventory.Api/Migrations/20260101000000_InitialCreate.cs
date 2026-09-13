@@ -35,6 +35,7 @@ public partial class InitialCreate : Migration
         migrationBuilder.InsertData(
             table: "Products",
             columns: new[] { "Id", "CostPrice", "CreatedAtUtc", "Description", "InternalNotes", "Name", "Price", "StockQuantity", "UpdatedAtUtc" },
+            columnTypes: new[] { "int", "decimal(18,2)", "datetime2", "nvarchar(1000)", "nvarchar(2000)", "nvarchar(120)", "decimal(18,2)", "int", "datetime2" },
             values: new object[,]
             {
                 { 1, 620.00m, new DateTime(2026, 1, 1, 12, 0, 0, DateTimeKind.Utc), "Compact keyboard with tactile switches.", "Demo data: reorder at five units.", "Mechanical Keyboard", 1099.00m, 14, new DateTime(2026, 1, 1, 12, 0, 0, DateTimeKind.Utc) },
